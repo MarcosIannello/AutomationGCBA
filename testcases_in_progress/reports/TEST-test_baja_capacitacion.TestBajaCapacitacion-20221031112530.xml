@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_baja_capacitacion.TestBajaCapacitacion-20221031112530" tests="1" file="test_baja_capacitacion.py" time="60.192" timestamp="2022-10-31T11:26:30" failures="0" errors="1" skipped="0">
+	<testcase classname="test_baja_capacitacion.TestBajaCapacitacion" name="test_baja_capacitacion" time="60.192" timestamp="2022-10-31T11:26:30" file="test_baja_capacitacion.py" line="18">
+		<error type="InvalidSelectorException" message="Message: invalid selector: Unable to locate an element with the xpath expression //button[@onclick='showDeleteEntity(443501, altaCapacitacionAutomatizada, '');'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@onclick='showDeleteEntity(443501, altaCapacitacionAutomatizada, '');']' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+Stacktrace:
+#0 0x555988d242c3 &lt;unknown&gt;
+#1 0x555988b2d83a &lt;unknown&gt;
+#2 0x555988b309d7 &lt;unknown&gt;
+#3 0x555988b30877 &lt;unknown&gt;
+#4 0x555988b30b3c &lt;unknown&gt;
+#5 0x555988b6668f &lt;unknown&gt;
+#6 0x555988b66b61 &lt;unknown&gt;
+#7 0x555988b9ed14 &lt;unknown&gt;
+#8 0x555988b84f6d &lt;unknown&gt;
+#9 0x555988b9ca50 &lt;unknown&gt;
+#10 0x555988b84d63 &lt;unknown&gt;
+#11 0x555988b597e3 &lt;unknown&gt;
+#12 0x555988b5aa21 &lt;unknown&gt;
+#13 0x555988d7218e &lt;unknown&gt;
+#14 0x555988d75622 &lt;unknown&gt;
+#15 0x555988d58aae &lt;unknown&gt;
+#16 0x555988d762a3 &lt;unknown&gt;
+#17 0x555988d4cecf &lt;unknown&gt;
+#18 0x555988d96588 &lt;unknown&gt;
+#19 0x555988d96706 &lt;unknown&gt;
+#20 0x555988db08b2 &lt;unknown&gt;
+#21 0x7f7731c16b43 &lt;unknown&gt;
+"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/testcases_in_progress/test_baja_capacitacion.py", line 25, in test_baja_capacitacion
+    self.click_element(boton_eliminar)
+  File "/home/exo/PycharmProjects/TyPAutomation/commons_backoffice.py", line 81, in click_element
+    WebDriverWait(self.driver, timeout=5).until(
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 81, in until
+    value = method(self._driver)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[@onclick='showDeleteEntity(443501, altaCapacitacionAutomatizada, '');'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@onclick='showDeleteEntity(443501, altaCapacitacionAutomatizada, '');']' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+Stacktrace:
+#0 0x555988d242c3 <unknown>
+#1 0x555988b2d83a <unknown>
+#2 0x555988b309d7 <unknown>
+#3 0x555988b30877 <unknown>
+#4 0x555988b30b3c <unknown>
+#5 0x555988b6668f <unknown>
+#6 0x555988b66b61 <unknown>
+#7 0x555988b9ed14 <unknown>
+#8 0x555988b84f6d <unknown>
+#9 0x555988b9ca50 <unknown>
+#10 0x555988b84d63 <unknown>
+#11 0x555988b597e3 <unknown>
+#12 0x555988b5aa21 <unknown>
+#13 0x555988d7218e <unknown>
+#14 0x555988d75622 <unknown>
+#15 0x555988d58aae <unknown>
+#16 0x555988d762a3 <unknown>
+#17 0x555988d4cecf <unknown>
+#18 0x555988d96588 <unknown>
+#19 0x555988d96706 <unknown>
+#20 0x555988db08b2 <unknown>
+#21 0x7f7731c16b43 <unknown>
+
+]]></error>
+	</testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_baja_capacitacion.TestBajaCapacitacion-20221102112612" tests="1" file="test_baja_capacitacion.py" time="54.555" timestamp="2022-11-02T11:27:07" failures="1" errors="0" skipped="0">
+	<testcase classname="test_baja_capacitacion.TestBajaCapacitacion" name="test_baja_capacitacion" time="54.555" timestamp="2022-11-02T11:27:07" file="test_baja_capacitacion.py" line="22">
+		<failure type="AssertionError" message="False is not true"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/testcases_in_progress/test_baja_capacitacion.py", line 38, in test_baja_capacitacion
+    self.assertTrue(cartel_eliminacion_exitosa in self.driver.page_source)
+AssertionError: False is not true
+]]></failure>
+	</testcase>
+</testsuite>

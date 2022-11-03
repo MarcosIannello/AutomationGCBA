@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_baja_capacitacion.TestBajaCapacitacion-20221031113629" tests="1" file="test_baja_capacitacion.py" time="29.345" timestamp="2022-10-31T11:36:59" failures="0" errors="1" skipped="0">
+	<testcase classname="test_baja_capacitacion.TestBajaCapacitacion" name="test_baja_capacitacion" time="29.345" timestamp="2022-10-31T11:36:59" file="test_baja_capacitacion.py" line="20">
+		<error type="InvalidSelectorException" message="Message: invalid selector: Unable to locate an element with the xpath expression //button[@class='btn btn-icon',[text() = altaCapacitacionAutomatizada]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='btn btn-icon',[text() = altaCapacitacionAutomatizada]]' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+Stacktrace:
+#0 0x55e40075f2c3 &lt;unknown&gt;
+#1 0x55e40056883a &lt;unknown&gt;
+#2 0x55e40056b9d7 &lt;unknown&gt;
+#3 0x55e40056b877 &lt;unknown&gt;
+#4 0x55e40056bb3c &lt;unknown&gt;
+#5 0x55e4005a168f &lt;unknown&gt;
+#6 0x55e4005a1b61 &lt;unknown&gt;
+#7 0x55e4005d9d14 &lt;unknown&gt;
+#8 0x55e4005bff6d &lt;unknown&gt;
+#9 0x55e4005d7a50 &lt;unknown&gt;
+#10 0x55e4005bfd63 &lt;unknown&gt;
+#11 0x55e4005947e3 &lt;unknown&gt;
+#12 0x55e400595a21 &lt;unknown&gt;
+#13 0x55e4007ad18e &lt;unknown&gt;
+#14 0x55e4007b0622 &lt;unknown&gt;
+#15 0x55e400793aae &lt;unknown&gt;
+#16 0x55e4007b12a3 &lt;unknown&gt;
+#17 0x55e400787ecf &lt;unknown&gt;
+#18 0x55e4007d1588 &lt;unknown&gt;
+#19 0x55e4007d1706 &lt;unknown&gt;
+#20 0x55e4007eb8b2 &lt;unknown&gt;
+#21 0x7f32001f1b43 &lt;unknown&gt;
+"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/testcases_in_progress/test_baja_capacitacion.py", line 30, in test_baja_capacitacion
+    self.click_element(boton_eliminar)
+  File "/home/exo/PycharmProjects/TyPAutomation/commons_backoffice.py", line 81, in click_element
+    WebDriverWait(self.driver, timeout=5).until(
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 81, in until
+    value = method(self._driver)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 312, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 856, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[@class='btn btn-icon',[text() = altaCapacitacionAutomatizada]] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='btn btn-icon',[text() = altaCapacitacionAutomatizada]]' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+Stacktrace:
+#0 0x55e40075f2c3 <unknown>
+#1 0x55e40056883a <unknown>
+#2 0x55e40056b9d7 <unknown>
+#3 0x55e40056b877 <unknown>
+#4 0x55e40056bb3c <unknown>
+#5 0x55e4005a168f <unknown>
+#6 0x55e4005a1b61 <unknown>
+#7 0x55e4005d9d14 <unknown>
+#8 0x55e4005bff6d <unknown>
+#9 0x55e4005d7a50 <unknown>
+#10 0x55e4005bfd63 <unknown>
+#11 0x55e4005947e3 <unknown>
+#12 0x55e400595a21 <unknown>
+#13 0x55e4007ad18e <unknown>
+#14 0x55e4007b0622 <unknown>
+#15 0x55e400793aae <unknown>
+#16 0x55e4007b12a3 <unknown>
+#17 0x55e400787ecf <unknown>
+#18 0x55e4007d1588 <unknown>
+#19 0x55e4007d1706 <unknown>
+#20 0x55e4007eb8b2 <unknown>
+#21 0x7f32001f1b43 <unknown>
+
+]]></error>
+	</testcase>
+</testsuite>

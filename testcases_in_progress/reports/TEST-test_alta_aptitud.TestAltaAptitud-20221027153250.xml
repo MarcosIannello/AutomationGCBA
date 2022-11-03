@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_alta_aptitud.TestAltaAptitud-20221027153250" tests="1" file="test_alta_aptitud.py" time="22.313" timestamp="2022-10-27T15:33:13" failures="0" errors="1" skipped="0">
+	<testcase classname="test_alta_aptitud.TestAltaAptitud" name="test_alta_aptitud" time="22.313" timestamp="2022-10-27T15:33:13" file="test_alta_aptitud.py" line="23">
+		<error type="TimeoutException" message="Message: 
+Stacktrace:
+#0 0x558f83a732c3 &lt;unknown&gt;
+#1 0x558f8387c83a &lt;unknown&gt;
+#2 0x558f838b5985 &lt;unknown&gt;
+#3 0x558f838b5b61 &lt;unknown&gt;
+#4 0x558f838edd14 &lt;unknown&gt;
+#5 0x558f838d3f6d &lt;unknown&gt;
+#6 0x558f838eba50 &lt;unknown&gt;
+#7 0x558f838d3d63 &lt;unknown&gt;
+#8 0x558f838a87e3 &lt;unknown&gt;
+#9 0x558f838a9a21 &lt;unknown&gt;
+#10 0x558f83ac118e &lt;unknown&gt;
+#11 0x558f83ac4622 &lt;unknown&gt;
+#12 0x558f83aa7aae &lt;unknown&gt;
+#13 0x558f83ac52a3 &lt;unknown&gt;
+#14 0x558f83a9becf &lt;unknown&gt;
+#15 0x558f83ae5588 &lt;unknown&gt;
+#16 0x558f83ae5706 &lt;unknown&gt;
+#17 0x558f83aff8b2 &lt;unknown&gt;
+#18 0x7feb90b5db43 &lt;unknown&gt;
+"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/testcases_in_progress/test_alta_aptitud.py", line 26, in test_alta_aptitud
+    self.go_to_menus(aptitudes)
+  File "/home/exo/PycharmProjects/TyPAutomation/commons_backoffice.py", line 60, in go_to_menus
+    WebDriverWait(self.driver, timeout=5).until(
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x558f83a732c3 <unknown>
+#1 0x558f8387c83a <unknown>
+#2 0x558f838b5985 <unknown>
+#3 0x558f838b5b61 <unknown>
+#4 0x558f838edd14 <unknown>
+#5 0x558f838d3f6d <unknown>
+#6 0x558f838eba50 <unknown>
+#7 0x558f838d3d63 <unknown>
+#8 0x558f838a87e3 <unknown>
+#9 0x558f838a9a21 <unknown>
+#10 0x558f83ac118e <unknown>
+#11 0x558f83ac4622 <unknown>
+#12 0x558f83aa7aae <unknown>
+#13 0x558f83ac52a3 <unknown>
+#14 0x558f83a9becf <unknown>
+#15 0x558f83ae5588 <unknown>
+#16 0x558f83ae5706 <unknown>
+#17 0x558f83aff8b2 <unknown>
+#18 0x7feb90b5db43 <unknown>
+
+]]></error>
+	</testcase>
+</testsuite>

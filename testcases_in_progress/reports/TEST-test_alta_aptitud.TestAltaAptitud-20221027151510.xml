@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_alta_aptitud.TestAltaAptitud-20221027151510" tests="1" file="test_alta_aptitud.py" time="41.323" timestamp="2022-10-27T15:15:51" failures="0" errors="1" skipped="0">
+	<testcase classname="test_alta_aptitud.TestAltaAptitud" name="test_alta_aptitud" time="41.323" timestamp="2022-10-27T15:15:51" file="test_alta_aptitud.py" line="20">
+		<error type="TypeError" message="BaseTest.completar_campo_input() missing 1 required positional argument: 'str_value'"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/testcases_in_progress/test_alta_aptitud.py", line 26, in test_alta_aptitud
+    self.completar_campo_input(nombre_aptitud)
+TypeError: BaseTest.completar_campo_input() missing 1 required positional argument: 'str_value'
+]]></error>
+	</testcase>
+</testsuite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_baja_capacitacion.TestBajaCapacitacion-20221102111120" tests="1" file="test_baja_capacitacion.py" time="2.853" timestamp="2022-11-02T11:11:23" failures="0" errors="1" skipped="0">
+	<testcase classname="test_baja_capacitacion.TestBajaCapacitacion" name="test_baja_capacitacion" time="2.853" timestamp="2022-11-02T11:11:23" file="test_baja_capacitacion.py" line="20">
+		<error type="WebDriverException" message="Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+#0 0x56036cb032c3 &lt;unknown&gt;
+#1 0x56036c90c700 &lt;unknown&gt;
+#2 0x56036c8f8bfd &lt;unknown&gt;
+#3 0x56036c8f79bb &lt;unknown&gt;
+#4 0x56036c8f7eec &lt;unknown&gt;
+#5 0x56036c905e6f &lt;unknown&gt;
+#6 0x56036c8f982a &lt;unknown&gt;
+#7 0x56036c8fab3d &lt;unknown&gt;
+#8 0x56036c8f9b3a &lt;unknown&gt;
+#9 0x56036c8f8ea5 &lt;unknown&gt;
+#10 0x56036c8f8cc0 &lt;unknown&gt;
+#11 0x56036c8f79bb &lt;unknown&gt;
+#12 0x56036c8f7eec &lt;unknown&gt;
+#13 0x56036c9046d2 &lt;unknown&gt;
+#14 0x56036c905322 &lt;unknown&gt;
+#15 0x56036c914500 &lt;unknown&gt;
+#16 0x56036c97bcec &lt;unknown&gt;
+#17 0x56036c963d63 &lt;unknown&gt;
+#18 0x56036c9387e3 &lt;unknown&gt;
+#19 0x56036c939a21 &lt;unknown&gt;
+#20 0x56036cb5118e &lt;unknown&gt;
+#21 0x56036cb54622 &lt;unknown&gt;
+#22 0x56036cb37aae &lt;unknown&gt;
+#23 0x56036cb552a3 &lt;unknown&gt;
+#24 0x56036cb2becf &lt;unknown&gt;
+#25 0x56036cb75588 &lt;unknown&gt;
+#26 0x56036cb75706 &lt;unknown&gt;
+#27 0x56036cb8f8b2 &lt;unknown&gt;
+#28 0x7f729addab43 &lt;unknown&gt;
+"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/commons_backoffice.py", line 26, in setUp
+    self.driver.get(os.environ.get('APP_URL'))
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 441, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+#0 0x56036cb032c3 <unknown>
+#1 0x56036c90c700 <unknown>
+#2 0x56036c8f8bfd <unknown>
+#3 0x56036c8f79bb <unknown>
+#4 0x56036c8f7eec <unknown>
+#5 0x56036c905e6f <unknown>
+#6 0x56036c8f982a <unknown>
+#7 0x56036c8fab3d <unknown>
+#8 0x56036c8f9b3a <unknown>
+#9 0x56036c8f8ea5 <unknown>
+#10 0x56036c8f8cc0 <unknown>
+#11 0x56036c8f79bb <unknown>
+#12 0x56036c8f7eec <unknown>
+#13 0x56036c9046d2 <unknown>
+#14 0x56036c905322 <unknown>
+#15 0x56036c914500 <unknown>
+#16 0x56036c97bcec <unknown>
+#17 0x56036c963d63 <unknown>
+#18 0x56036c9387e3 <unknown>
+#19 0x56036c939a21 <unknown>
+#20 0x56036cb5118e <unknown>
+#21 0x56036cb54622 <unknown>
+#22 0x56036cb37aae <unknown>
+#23 0x56036cb552a3 <unknown>
+#24 0x56036cb2becf <unknown>
+#25 0x56036cb75588 <unknown>
+#26 0x56036cb75706 <unknown>
+#27 0x56036cb8f8b2 <unknown>
+#28 0x7f729addab43 <unknown>
+
+]]></error>
+	</testcase>
+</testsuite>

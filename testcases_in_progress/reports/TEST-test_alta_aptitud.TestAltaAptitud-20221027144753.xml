@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_alta_aptitud.TestAltaAptitud-20221027144753" tests="1" file="test_alta_aptitud.py" time="39.846" timestamp="2022-10-27T14:48:33" failures="0" errors="1" skipped="0">
+	<testcase classname="test_alta_aptitud.TestAltaAptitud" name="test_alta_aptitud" time="39.846" timestamp="2022-10-27T14:48:33" file="test_alta_aptitud.py" line="15">
+		<error type="WebDriverException" message="Message: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=106.0.5249.119)
+Stacktrace:
+#0 0x5627fc5e62c3 &lt;unknown&gt;
+#1 0x5627fc3ef83a &lt;unknown&gt;
+#2 0x5627fc3d9cd8 &lt;unknown&gt;
+#3 0x5627fc3ccc45 &lt;unknown&gt;
+#4 0x5627fc3cdd9d &lt;unknown&gt;
+#5 0x5627fc451893 &lt;unknown&gt;
+#6 0x5627fc446f08 &lt;unknown&gt;
+#7 0x5627fc41b7e3 &lt;unknown&gt;
+#8 0x5627fc41ca21 &lt;unknown&gt;
+#9 0x5627fc63418e &lt;unknown&gt;
+#10 0x5627fc637622 &lt;unknown&gt;
+#11 0x5627fc61aaae &lt;unknown&gt;
+#12 0x5627fc6382a3 &lt;unknown&gt;
+#13 0x5627fc60eecf &lt;unknown&gt;
+#14 0x5627fc658588 &lt;unknown&gt;
+#15 0x5627fc658706 &lt;unknown&gt;
+#16 0x5627fc6728b2 &lt;unknown&gt;
+#17 0x7f1b4338db43 &lt;unknown&gt;
+"><![CDATA[Traceback (most recent call last):
+  File "/home/exo/PycharmProjects/TyPAutomation/commons_backoffice.py", line 29, in tearDown
+    self.driver.close()
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 551, in close
+    self.execute(Command.CLOSE)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "/home/exo/PycharmProjects/TyPAutomation/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=106.0.5249.119)
+Stacktrace:
+#0 0x5627fc5e62c3 <unknown>
+#1 0x5627fc3ef83a <unknown>
+#2 0x5627fc3d9cd8 <unknown>
+#3 0x5627fc3ccc45 <unknown>
+#4 0x5627fc3cdd9d <unknown>
+#5 0x5627fc451893 <unknown>
+#6 0x5627fc446f08 <unknown>
+#7 0x5627fc41b7e3 <unknown>
+#8 0x5627fc41ca21 <unknown>
+#9 0x5627fc63418e <unknown>
+#10 0x5627fc637622 <unknown>
+#11 0x5627fc61aaae <unknown>
+#12 0x5627fc6382a3 <unknown>
+#13 0x5627fc60eecf <unknown>
+#14 0x5627fc658588 <unknown>
+#15 0x5627fc658706 <unknown>
+#16 0x5627fc6728b2 <unknown>
+#17 0x7f1b4338db43 <unknown>
+
+]]></error>
+	</testcase>
+</testsuite>

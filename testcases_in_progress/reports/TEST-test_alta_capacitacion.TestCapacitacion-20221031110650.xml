@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_alta_capacitacion.TestCapacitacion-20221031110650" tests="1" file="test_alta_capacitacion.py" time="54.640" timestamp="2022-10-31T11:07:45" failures="0" errors="0" skipped="0">
+	<testcase classname="test_alta_capacitacion.TestCapacitacion" name="test_alta_capacitacion" time="54.640" timestamp="2022-10-31T11:07:45" file="test_alta_capacitacion.py" line="49"/>
+</testsuite>
